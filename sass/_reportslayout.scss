@@ -1,0 +1,142 @@
+/* Report List*/
+.page-articles {
+  @media only screen and (max-width: 925px) {
+    #sidebar-second {
+      display: none;
+    }
+  }
+}
+
+
+.view-id-articles {
+  margin: 0 auto;
+  a {&:hover {text-decoration: none;}}
+  .view-header {
+    h1 {
+      text-align: center;
+      font-family: 'Georgia',serif;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding-bottom: 15px;
+      border-bottom: 1px solid $lightBorder;
+      margin-bottom: 1.25em;
+    }
+  }
+  .views-row {
+    display: flex;
+    margin: 2.75em 0;
+
+    a {
+      width: 80%;
+      @media only screen and (max-width: 425px) {
+        width: 100%;
+        text-decoration: none;
+      }
+    }
+    .brief-info {
+      width: 20%;
+      float: left;
+      padding-right: 20px;
+      text-align: right;
+      a {
+        color: $lightGrey;
+        text-decoration: none;
+      }
+      .brief-region{
+        h4 {
+          font-size: 12px;
+          @include replica(400);
+        }
+        a {
+          &:hover {text-decoration: underline; color: $RedHover;}
+        }
+      }
+      .timestamp {
+        font-family: 'Ovo', serif;
+        font-size: 15px;
+        color: $cipherBlue;
+        text-transform: uppercase;
+      }
+      @media only screen and (max-width: 1125px) {
+    		width: 22%;
+    	}
+      @media only screen and (max-width: 425px) {
+        display: none;
+         .brief-region {display: none;}
+         .timestamp {display: none;}
+      }
+    }
+
+    .brief-crop {
+      float: left;
+      padding-right: 20px;
+      width: 17.32%;
+      max-height: 55px;
+			overflow: hidden;
+      img {
+  			display: block;
+  			width: 100%;
+  			//height: 100%;
+  			//min-height: 350px;
+  			max-width: 100%;
+  			/* just in case, to force correct aspect ratio */
+  			height: auto !important;
+  			width: auto\9; /* ie8+9 */
+  			/* lt ie8 */
+  			-ms-interpolation-mode: bicubic;
+      }
+      @media only screen and (max-width: 425px) {
+        width: 100%;
+        max-height: 200px;
+        float: none;
+        padding: 0;
+      }
+    }
+
+
+    .brief-content {
+      float: left;
+      text-align: left;
+      width: 78%;
+      &:hover {text-decoration: underline;}
+      h2 {
+        font-family: 'Ovo', serif;
+        font-size: 22px;
+        color: black;
+        //text-transform: uppercase;
+        padding-top: 1px;
+        margin-bottom: 0px;
+      }
+      h3 {
+        color: black;
+        font-size: 14px;
+        @include replica(600);
+      }
+      p {
+        font-style: 'Ovo', serif;
+        font-size: 16px;
+        color: $lightGrey;
+        line-height: 1.25em;
+      }
+      .timestamp-mobile {
+        display: none;
+        @media only screen and (max-width: 425px) {
+          display: block;
+          font-size: 16px;
+          color: $cipherBlue;
+          text-align: left;
+          padding-bottom: 5px;
+          @include replica(400);
+        }
+      }
+
+      @media only screen and (max-width: 425px) {
+        float: none;
+        text-align: left;
+        width: 100%;
+        padding: .75em 0 0;
+        border-bottom: 1px solid $lightGrey;
+      }
+    }
+  }
+}

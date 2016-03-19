@@ -1,0 +1,52 @@
+name = tcb
+description = The custom CIPHER theme.
+core = "7.x"
+project = "tcb"
+engine = phptemplate
+
+regions[top] = Top
+regions[navigation] = Navigation
+regions[help] = Help
+regions[highlight] = Highlight
+regions[content_top] = Content Top
+regions[content_header] = Content Header
+regions[content] = Content
+regions[content_bottom] = Content Bottom
+regions[sidebar_first] = Left Column
+regions[sidebar_second] = Right Column
+regions[footer] = Footer
+regions[sticky_footer] = Sticky Footer
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = search
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+stylesheets[all][] = stylesheets/tabs.css
+stylesheets[all][] = stylesheets/jquery.mCustomScrollbar.min.css
+stylesheets[all][] = stylesheets/style.css
+stylesheets[print][] = stylesheets/print.css
+
+fonts[typekit_api][] = "minion-pro#n7"
+fonts[typekit_api][] = "minion-pro#n4"
+
+scripts[] = js/jquery.easing.1.3.js
+scripts[] = js/jquery.marquee.min.js
+scripts[] = js/sticky.js
+scripts[] = js/cycle2.js
+scripts[] = js/jquery.countdown.min.js
+scripts[] = js/masonry.pkgd.min.js
+scripts[] = js/jquery.mCustomScrollbar.concat.min.js
+scripts[] = js/scripts.js
+
+settings[tcb_tabs] = 1
+settings[tcb_breadcrumb_separator] = »
+settings[wireframe_mode] = 0
+settings[clear_registry] = 0
+; Information added by drupal.org packaging script on 2011-02-16
+version = ""
+project = "tcb"
+datestamp = "1369891200"

@@ -1,0 +1,1 @@
+<div class="image" style="background-image: url('<?php echo $output; ?>');"></div>

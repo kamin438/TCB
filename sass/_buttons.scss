@@ -1,0 +1,101 @@
+.light-button {
+  background-color: transparent;
+  border: 1px solid $lightBorder;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #787878;
+  display: inline-block;
+  font-size: 12px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: border-color 500ms ease-in-out, background 500ms ease-in-out;
+  width: 65%;
+  padding: 10px 5px 8px 5px;
+  min-width: 0px;
+  max-width: 400px;
+  @include replica(600);
+  &:hover {
+    background: #E7E7E8;
+    text-decoration: none;
+    border: 1px solid white;
+  }
+}
+
+
+.red-button {
+  background-color: $cipherRed;
+  border: 1px solid $cipherRed;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: white;
+  display: inline-block;
+  font-size: 12px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: border-color 500ms ease-in-out, background 500ms ease-in-out;
+  width: 65%;
+  padding: 10px 5px 8px 5px;
+  min-width: 0px;
+  max-width: 400px;
+  @include replica(600);
+  &:hover {
+    background: $RedHover;
+    text-decoration: none;
+    border: 1px solid white;
+  }
+}
+
+.red-button-short {
+  background-color: $cipherRed;
+  border: 1px solid $cipherRed;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: white;
+  display: inline-block;
+  font-size: 12px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: border-color 500ms ease-in-out, background 500ms ease-in-out;
+  width: 50%;
+  padding: 10px 5px 8px 5px;
+  min-width: 0px;
+  max-width: 400px;
+  @include replica(600);
+  &:hover {
+    background: $RedHover;
+    text-decoration: none;
+    border: 1px solid white;
+  }
+}
+
+
+.blue-button {
+  background-color: $black;
+  border: 1px solid $black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: white;
+  display: inline-block;
+  font-size: 12px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: border-color 500ms ease-in-out, background 500ms ease-in-out;
+  width: 65%;
+  padding: 10px 5px 8px 5px;
+  min-width: 0px;
+  max-width: 400px;
+  @include replica(600);
+  &:hover {
+    background: $DarkBlueHover;
+    text-decoration: none;
+    border: 1px solid white;
+  }
+}

@@ -1,0 +1,46 @@
+// Imports
+@import "variables";
+
+// Font Declarations
+@mixin minion($weight) {
+  font-family: "minion-pro",serif;
+  font-weight: $weight;
+}
+@mixin replica($weight) {
+  font-family: 'replica-pro', Arial, Helvetica, sans-serif;
+  font-weight: $weight;
+}
+@mixin replica-bold($weight) {
+	font-family: 'replica-pro-bold', Arial, Helvetica, sans-serif;
+  font-weight: $weight;
+}
+
+// Rounded Corners
+// Example: @include border-radius(20px);
+@mixin border-radius($radius) {
+  border-radius: $radius;
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -ms-border-radius: $radius;
+  -o-border-radius: $radius;
+}
+
+// Circles
+// Example: @include circle();
+@mixin circle($top: 100em, $right: $top, $bottom: $top, $left: $right) {
+  border-radius: $top $right $bottom $left;
+  -moz-border-radius: $top $right $bottom $left;
+  -webkit-border-radius: $top $right $bottom $left;
+  -ms-border-radius: $top $right $bottom $left;
+  -o-border-radius: $top $right $bottom $left;
+}
+
+// Transition Shorthand for multiple properties
+// Example: @include transitions(color 200ms linear, background 200ms linear);
+@mixin transition($transition...) {
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -ms-transition: $transition;
+  -o-transition: $transition;
+  transition: $transition;
+}
