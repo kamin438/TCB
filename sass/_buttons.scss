@@ -99,3 +99,28 @@
     border: 1px solid white;
   }
 }
+
+.light-blue-button {
+  background-color: $cipherBlue;
+  border: 1px solid $cipherBlue;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: white;
+  display: inline-block;
+  font-size: 12px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: border-color 500ms ease-in-out, background 500ms ease-in-out;
+  width: 65%;
+  padding: 10px 5px 8px 5px;
+  min-width: 0px;
+  max-width: 400px;
+  @include replica(600);
+  &:hover {
+    background: $submitHover;
+    text-decoration: none;
+    border: 1px solid white;
+  }
+}

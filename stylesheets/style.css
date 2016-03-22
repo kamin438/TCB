@@ -6767,6 +6767,30 @@ ul.pager-load-more {
     text-decoration: none;
     border: 1px solid white; }
 
+.light-blue-button {
+  background-color: #077cc2;
+  border: 1px solid #077cc2;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: white;
+  display: inline-block;
+  font-size: 12px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: border-color 500ms ease-in-out, background 500ms ease-in-out;
+  width: 65%;
+  padding: 10px 5px 8px 5px;
+  min-width: 0px;
+  max-width: 400px;
+  font-family: 'replica-pro', Arial, Helvetica, sans-serif;
+  font-weight: 600; }
+  .light-blue-button:hover {
+    background: #2196F3;
+    text-decoration: none;
+    border: 1px solid white; }
+
 /* Global Headlines / News */
 #block-views-global_news-block_5 {
   /* Add to other side
@@ -7151,3 +7175,76 @@ ul.pager-load-more {
       line-height: 1.5em;
       border-top: 1px solid #cccccc;
       padding-top: 10px; }
+
+/* Subscribe Sidebar */
+.global-newsletter-sidebar .content {
+  text-align: center; }
+  .global-newsletter-sidebar .content p {
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.5em;
+    font-family: "minion-pro",serif;
+    font-weight: 400; }
+.global-newsletter-sidebar .promo-header {
+  background: #403f3e;
+  padding: 0.75em 1.25em; }
+  .global-newsletter-sidebar .promo-header h2 {
+    color: white;
+    font-family: 'Ovo', serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.25em;
+    width: 100%;
+    margin: 0;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); }
+.global-newsletter-sidebar .promo-content {
+  padding: 1.25em 1.75em;
+  background: #f5f5f5;
+  border-top: 1px solid #cccccc; }
+.global-newsletter-sidebar .simple-signup h6 {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 6px;
+  font-family: 'replica-pro', Arial, Helvetica, sans-serif;
+  font-weight: 600; }
+.global-newsletter-sidebar .simple-signup a {
+  border: 1px solid #f5f5f5; }
+
+/* Subscribe Top */
+.newsletter-top-cta {
+  padding: 0.65em 1.25em;
+  background: #404040;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc; }
+  .newsletter-top-cta .promo-left {
+    width: 50%;
+    float: left;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); }
+    .newsletter-top-cta .promo-left h2 {
+      font-family: 'Georgia', serif;
+      font-style: italic;
+      color: #d81e3b;
+      font-size: 22px;
+      line-height: 1.25em;
+      margin: 0; }
+    .newsletter-top-cta .promo-left p {
+      color: white;
+      margin: 0; }
+  .newsletter-top-cta .promo-right {
+    width: 50%;
+    float: left;
+    text-align: right; }
+    .newsletter-top-cta .promo-right a {
+      margin: 2px;
+      border-color: #404040; }
+  @media only screen and (max-width: 790px) {
+    .newsletter-top-cta .promo-left {
+      float: none;
+      text-align: center;
+      width: 100%; }
+    .newsletter-top-cta .promo-right {
+      float: none;
+      text-align: center;
+      width: 100%;
+      margin-top: 6px; } }
