@@ -326,6 +326,7 @@
 	p {
 		font-size: 12px;
 		color: $lightGrey;
+		line-height: 1.25em;
 		margin-bottom: 0;
 		//color: black;
 		@include replica(400);

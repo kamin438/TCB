@@ -23,7 +23,7 @@
     }
   }
   .views-row {
-    display: flex;
+    display: table;
     margin: 2.75em 0;
 
     a {
@@ -53,6 +53,7 @@
       }
       .timestamp {
         font-family: 'Ovo', serif;
+        font-weight: 400;
         font-size: 15px;
         color: $cipherBlue;
         text-transform: uppercase;
@@ -70,7 +71,7 @@
     .brief-crop {
       float: left;
       padding-right: 20px;
-      width: 17.32%;
+      width: 17%;
       max-height: 55px;
 			overflow: hidden;
       img {
@@ -97,10 +98,11 @@
     .brief-content {
       float: left;
       text-align: left;
-      width: 78%;
+      width: 60%;
       &:hover {text-decoration: underline;}
       h2 {
         font-family: 'Ovo', serif;
+        font-weight: 400;
         font-size: 22px;
         color: black;
         //text-transform: uppercase;
@@ -114,6 +116,7 @@
       }
       p {
         font-style: 'Ovo', serif;
+        font-weight: 400;
         font-size: 16px;
         color: $lightGrey;
         line-height: 1.25em;
