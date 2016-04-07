@@ -543,7 +543,7 @@
 	}
 }
 
-/* Column Selector */
+/* Column Selector and recent columns */
 .view-display-id-column_selector {
 	border-bottom: 1px solid $lightBorder;
 	@media only screen and (max-width: 1199px) {padding: 0 15px 20px 0;}
@@ -594,7 +594,7 @@
 		line-height: 1.25em;
 	}
 	p {
-		font-size: 12px;
+		font-size: 13px;
 		color: $cipherRed;
 		line-height: 1.25em;
 		margin-bottom: 0;
