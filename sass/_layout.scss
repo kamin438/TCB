@@ -521,7 +521,7 @@ body.full-width {
 /* More from this expert */
 #block-views-the_network-block_1 {
 	position: relative;
-	border-bottom: 1px solid $lightBorder;
+	//border-bottom: 1px solid $lightBorder;
 	h2 {
 		font-family: 'Georgia', serif;
 		font-size: 20px;
@@ -531,6 +531,7 @@ body.full-width {
 		text-align: center;
 		line-height: 1;
 		text-transform: uppercase;
+		border-top: 1px solid $lightBorder;
 		border-bottom: 1px solid $lightBorder;
 	}
 	#expert-next {
@@ -583,9 +584,15 @@ body.full-width {
 		}
 	}
 
+	ul.pager {
+    clear: both;
+    padding-top: 0;
+	}
 
 	.views-row {
 		vertical-align: top;
+		margin-bottom: 20px;
+		border-bottom: 1px dotted #ccc;
 		//height: 150px;
 
 		.field-content {
@@ -596,13 +603,27 @@ body.full-width {
 			}
 			.title {
 				font-family: 'Ovo', serif;
-				font-size: 18px;
+				font-size: 22px;
 				line-height: normal;
-				padding: 10px 15px;
+				padding: 0 10px;
 				//@include replica(500);
 				/*background: url('../images/chevron-right-gray.png') right center no-repeat;*/
 			}
-
+			.date {
+				color: $cipherBlue;
+				font-size: 14px;
+				padding: 0 10px;
+				@include replica(400);
+			}
+			.content {
+				color: $gray;
+				font-family: 'Ovo',serif;
+				font-weight: 400;
+				font-size: 14px;
+				line-height: 1.25em;
+				padding: 0 10px;
+				margin-bottom: 15px;
+			}
 			.author {
 				text-transform: uppercase;
 				color: $black;

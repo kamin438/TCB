@@ -2187,8 +2187,7 @@ body.full-width #main .wrap {
 
 /* More from this expert */
 #block-views-the_network-block_1 {
-  position: relative;
-  border-bottom: 1px solid #cccccc; }
+  position: relative; }
   #block-views-the_network-block_1 h2 {
     font-family: 'Georgia', serif;
     font-size: 20px;
@@ -2198,6 +2197,7 @@ body.full-width #main .wrap {
     text-align: center;
     line-height: 1;
     text-transform: uppercase;
+    border-top: 1px solid #cccccc;
     border-bottom: 1px solid #cccccc; }
   #block-views-the_network-block_1 #expert-next {
     position: absolute;
@@ -2246,18 +2246,37 @@ body.full-width #main .wrap {
         background: #E7E7E8;
         text-decoration: none;
         border: 1px solid white; }
+  #block-views-the_network-block_1 ul.pager {
+    clear: both;
+    padding-top: 0; }
   #block-views-the_network-block_1 .views-row {
-    vertical-align: top; }
+    vertical-align: top;
+    margin-bottom: 20px;
+    border-bottom: 1px dotted #ccc; }
     #block-views-the_network-block_1 .views-row .field-content a {
       text-decoration: none; }
       #block-views-the_network-block_1 .views-row .field-content a:hover {
         text-decoration: underline; }
     #block-views-the_network-block_1 .views-row .field-content .title {
       font-family: 'Ovo', serif;
-      font-size: 18px;
+      font-size: 22px;
       line-height: normal;
-      padding: 10px 15px;
+      padding: 0 10px;
       /*background: url('../images/chevron-right-gray.png') right center no-repeat;*/ }
+    #block-views-the_network-block_1 .views-row .field-content .date {
+      color: #077cc2;
+      font-size: 14px;
+      padding: 0 10px;
+      font-family: 'replica-pro', Arial, Helvetica, sans-serif;
+      font-weight: 400; }
+    #block-views-the_network-block_1 .views-row .field-content .content {
+      color: #8c8f93;
+      font-family: 'Ovo',serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.25em;
+      padding: 0 10px;
+      margin-bottom: 15px; }
     #block-views-the_network-block_1 .views-row .field-content .author {
       text-transform: uppercase;
       color: #000f33;
@@ -6752,6 +6771,20 @@ ul.pager-load-more {
       width: 100%;
       padding: .75em 0 0;
       border-bottom: 1px solid #8C8F93; } }
+
+/*Column Network term layout*/
+.view-header .columns-title h1 {
+  border-bottom: none;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  line-height: 1.75em; }
+.view-header .columns-title p {
+  font-family: 'Ovo', serif;
+  font-weight: 400;
+  color: #8c8f93;
+  text-align: center;
+  padding-bottom: 1.25em;
+  border-bottom: 1px solid #cccccc; }
 
 .light-button {
   background-color: transparent;

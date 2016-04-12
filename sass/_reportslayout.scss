@@ -228,3 +228,24 @@
       border-bottom: 1px solid $lightGrey;
     }
   }
+
+
+/*Column Network term layout*/
+.view-header {
+  .columns-title {
+    h1 {
+      border-bottom: none;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+      line-height: 1.75em;
+    }
+    p {
+      font-family: 'Ovo', serif;
+      font-weight: 400;
+      color: $gray;
+      text-align: center;
+      padding-bottom: 1.25em;
+      border-bottom: 1px solid $lightBorder;
+    }
+  }
+}
