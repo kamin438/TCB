@@ -19,7 +19,7 @@
   <meta name="application-name" content="The Cipher Brief" />
   <meta name="msapplication-TileColor" content="#ffffff" />
   <meta name="msapplication-TileImage" content="<?php print $base_path . path_to_theme() ?>/images/meta/favicon-tile.png" />
-  <script src="//load.sumome.com/" data-sumo-site-id="26be32f5ac1bd1c30880c2086b946782383ad57728c1dc4c790d9396fce9a4cb" async="async"></script>
+  <script src="//load.sumome.com/" data-sumo-site-id="809b75d48817326671e416827335b7c08764f2a64fcaf1d7dfe8ea10a8da00c8" async="async"></script>
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <a name="top"></a>
