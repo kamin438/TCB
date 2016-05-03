@@ -2289,11 +2289,14 @@ body.full-width #main .wrap {
       bottom: 20px;
       width: 90%; }
 
-/* Related Articles*/
+/* Related Articles - Display desktop  */
 @media only screen and (max-width: 1199px) {
   #block-views-home-block_2 {
     width: 100%;
     padding: 0 1.25em; } }
+@media only screen and (max-width: 918px) {
+  #block-views-home-block_2 {
+    display: none !important; } }
 #block-views-home-block_2 h2 {
   font-family: 'Georgia',serif;
   font-weight: bold;
@@ -2314,7 +2317,9 @@ body.full-width #main .wrap {
 @media only screen and (max-width: 598px) {
   #block-views-home-block_2 .col-1, #block-views-home-block_2 .col-2, #block-views-home-block_2 .col-3 {
     width: 100%;
-    padding: 0;
+    padding: 20px 0 5px 0;
+    margin-bottom: 10px;
+    border-top: 1px solid #cccccc;
     float: left; } }
 #block-views-home-block_2 a {
   text-decoration: none; }
@@ -2323,6 +2328,12 @@ body.full-width #main .wrap {
 #block-views-home-block_2 .summary .img-feed {
   max-height: 145px;
   overflow: hidden; }
+  @media only screen and (max-width: 1150px) {
+    #block-views-home-block_2 .summary .img-feed {
+      width: 100%;
+      max-height: 85px;
+      float: none;
+      padding: 0; } }
   @media only screen and (max-width: 598px) {
     #block-views-home-block_2 .summary .img-feed {
       width: 100%;
@@ -2367,6 +2378,98 @@ body.full-width #main .wrap {
   font-family: 'replica-pro', Arial, Helvetica, sans-serif;
   font-weight: 600; }
   #block-views-home-block_2 .view-footer a:hover {
+    text-decoration: none; }
+
+/* Related Articles - Display desktop  */
+@media only screen and (min-width: 918px) {
+  #block-views-home-block_3 {
+    display: none !important; } }
+@media only screen and (max-width: 918px) {
+  #block-views-home-block_3 {
+    display: block;
+    width: 100%;
+    padding: 0 1.25em; } }
+#block-views-home-block_3 h2 {
+  font-family: 'Georgia',serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  text-transform: uppercase;
+  border-top: 1px solid #cccccc;
+  padding-top: 1.25em; }
+#block-views-home-block_3 .col-1, #block-views-home-block_3 .col-2, #block-views-home-block_3 .col-3 {
+  width: 33.33%; }
+#block-views-home-block_3 .col-3 {
+  padding: .25em 0 0 1.25em; }
+#block-views-home-block_3 .col-2 {
+  padding: .25em 0 1.25em 0; }
+#block-views-home-block_3 .col-1 {
+  padding: .25em 1.25em 0 0; }
+@media only screen and (max-width: 598px) {
+  #block-views-home-block_3 .col-1, #block-views-home-block_3 .col-2, #block-views-home-block_3 .col-3 {
+    width: 100%;
+    padding: 20px 0 5px 0;
+    margin-bottom: 10px;
+    border-top: 1px solid #cccccc;
+    float: left; } }
+#block-views-home-block_3 a {
+  text-decoration: none; }
+  #block-views-home-block_3 a:hover {
+    text-decoration: underline; }
+#block-views-home-block_3 .summary .img-feed {
+  max-height: 145px;
+  overflow: hidden; }
+  @media only screen and (max-width: 1150px) {
+    #block-views-home-block_3 .summary .img-feed {
+      width: 100%;
+      max-height: 85px;
+      float: none;
+      padding: 0; } }
+  @media only screen and (max-width: 598px) {
+    #block-views-home-block_3 .summary .img-feed {
+      width: 100%;
+      max-height: 200px;
+      float: none;
+      padding: 0; } }
+#block-views-home-block_3 .summary img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  /* just in case, to force correct aspect ratio */
+  height: auto !important;
+  width: auto\9;
+  /* ie8+9 */
+  /* lt ie8 */
+  -ms-interpolation-mode: bicubic; }
+#block-views-home-block_3 .summary h3 {
+  font-family: 'Ovo', serif;
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 5px;
+  line-height: 1.25em; }
+#block-views-home-block_3 .summary h4 {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: 'replica-pro', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  line-height: 1.25em;
+  margin-bottom: 10px;
+  color: #8C8F93; }
+#block-views-home-block_3 .summary p {
+  font-family: 'Ovo', serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.25em;
+  color: #8C8F93; }
+#block-views-home-block_3 .view-footer .center-button {
+  margin: 0 auto 30px;
+  text-align: center; }
+#block-views-home-block_3 .view-footer a {
+  font-size: 12px;
+  font-family: 'replica-pro', Arial, Helvetica, sans-serif;
+  font-weight: 600; }
+  #block-views-home-block_3 .view-footer a:hover {
     text-decoration: none; }
 
 /* Ads General*/
