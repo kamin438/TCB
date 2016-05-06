@@ -5554,9 +5554,9 @@ ul.pager-load-more {
     margin: 0;
     border: 0; }
   .block.expert-article-headshot .expert-name {
-    margin: 0;
+    margin: 0 0 10px 0;
     border: 0;
-    font-size: .8em;
+    font-size: 12px;
     line-height: 1.2em;
     padding: 10px 10px 15px;
     background: #403f3e;
@@ -5587,7 +5587,7 @@ ul.pager-load-more {
     margin: 0 0 1em 0; }
   .expert-footer-bio .view-article-details {
     border: 0; }
-  .expert-footer-bio .views-field-description {
+  .expert-footer-bio .views-field-description .views-field-description-1 {
     font-family: "minion-pro",serif;
     font-weight: 400;
     font-size: 1em;
@@ -5745,11 +5745,11 @@ ul.pager-load-more {
     background-size: cover;
     background-repeat: no-repeat;
     height: 250px; }
-  .view-the-network.view-display-id-page .views-row .views-field-name-1 {
+  .view-the-network.view-display-id-page .views-row .views-field-name-1 .views-field-name-3 {
     position: absolute;
     bottom: 0px;
     padding-bottom: 5px; }
-    .view-the-network.view-display-id-page .views-row .views-field-name-1 .expert-name-display {
+    .view-the-network.view-display-id-page .views-row .views-field-name-1 .views-field-name-3 .expert-name-display {
       position: relative;
       color: rgba(64, 63, 62, 0.91);
       padding: 5px 2px;
@@ -5759,7 +5759,7 @@ ul.pager-load-more {
       text-align: left;
       font-family: 'replica-pro', Arial, Helvetica, sans-serif;
       font-weight: 600; }
-      .view-the-network.view-display-id-page .views-row .views-field-name-1 .expert-name-display .titles {
+      .view-the-network.view-display-id-page .views-row .views-field-name-1 .views-field-name-3 .expert-name-display .titles {
         font-family: 'Ovo', serif;
         font-weight: 400;
         font-size: 14px;
