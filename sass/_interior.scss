@@ -160,7 +160,7 @@
 	}
 
 }
-
+/* Left hand Network image in article */
 .block.expert-article-headshot {
 	float: left;
 	width: 220px;
@@ -212,7 +212,11 @@
 	.expert-name {
 	 	margin: 0 0 10px 0;
 		border: 0;
+<<<<<<< Updated upstream
 		font-size: 12px;
+=======
+		font-size: 14px;
+>>>>>>> Stashed changes
 		line-height: 1.2em;
 		padding: 10px 10px 15px;
 		background: $darkGrey;
@@ -233,6 +237,7 @@
 	strong { @include replica(600); }
 }
 
+/* Expert Footer Bio */
 .expert-footer-bio {
 	border-top: 1px solid $lightBorder;
 	padding: 1em 0 0;
@@ -241,7 +246,11 @@
 	//background: $warmGrey;
 	p { margin: 0 0 1em 0; }
 	.view-article-details { border: 0; }
+<<<<<<< Updated upstream
 	.views-field-description .views-field-description-1{
+=======
+	.views-field-description .views-field-description-1 {
+>>>>>>> Stashed changes
 		@include minion(400);
 		font-size: 1em;
 		text-transform: none;

@@ -5508,6 +5508,7 @@ ul.pager-load-more {
         clear: both;
         margin: 0 0 15px 0; } }
 
+/* Left hand Network image in article */
 .block.expert-article-headshot {
   float: left;
   width: 220px;
@@ -5556,7 +5557,11 @@ ul.pager-load-more {
   .block.expert-article-headshot .expert-name {
     margin: 0 0 10px 0;
     border: 0;
+<<<<<<< Updated upstream
     font-size: 12px;
+=======
+    font-size: 14px;
+>>>>>>> Stashed changes
     line-height: 1.2em;
     padding: 10px 10px 15px;
     background: #403f3e;
@@ -5578,6 +5583,7 @@ ul.pager-load-more {
     font-family: 'replica-pro', Arial, Helvetica, sans-serif;
     font-weight: 600; }
 
+/* Expert Footer Bio */
 .expert-footer-bio {
   border-top: 1px solid #cccccc;
   padding: 1em 0 0;
