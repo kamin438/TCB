@@ -1,6 +1,12 @@
+
 (function ($) {
+$(window).load(function(){
+         $("#mCustomScrollbar").mCustomScrollbar({theme:"inset"});
+     });
+ })(jQuery);
 
-
+ //created by blue water
+(function ($) {
   function foldSizes(){
     var fold = $(window).height() * .45;
     var totalWidth = $(window).width();
@@ -185,7 +191,7 @@
           prev: '#snapshot-previous'
         });
         */
-        
+
         // Category headers
         $('.view-category-pages .view:eq(0) .view-content').cycle({
           speed: 500,

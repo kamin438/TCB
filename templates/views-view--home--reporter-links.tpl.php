@@ -23,14 +23,7 @@
   <?php endif; ?>
 
   <?php if ($rows): ?>
-    <div class="view-content">
-
-    <div class="scrollbar-vertical" style="display: block;">
-        <div class="scrollbar-dragger" style="position: absolute; min-height: 30px; display: block; height: 503px; max-height: 1313px;" oncontextmenu="return false;">
-          <div class="scrollbar-dragger-bar" style="line-height: 30px;"></div>
-        </div>
-        <div class="scrollbar-dragger-rail"></div>
-    </div>
+    <div id="mCustomScrollbar"class="view-content">
     <?php print $rows; ?>
   </div>
   <?php elseif ($empty): ?>

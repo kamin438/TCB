@@ -19,6 +19,8 @@
   <meta name="application-name" content="The Cipher Brief" />
   <meta name="msapplication-TileColor" content="#ffffff" />
   <meta name="msapplication-TileImage" content="<?php print $base_path . path_to_theme() ?>/images/meta/favicon-tile.png" />
+  <link rel="stylesheet" href="/stylesheets/jquery.mCustomScrollbar.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="//load.sumome.com/" data-sumo-site-id="809b75d48817326671e416827335b7c08764f2a64fcaf1d7dfe8ea10a8da00c8" async="async"></script>
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>

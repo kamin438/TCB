@@ -615,9 +615,10 @@
 	@media only screen and (max-width: 675px) {padding: 0 15px 20px 0; border-top: none;}
 	.view-content {
 		height: 400px;
-    overflow-y: scroll;
+    overflow: hidden;
     margin: 10px 0;
 	}
+	/*
 	.view-content::-webkit-scrollbar {
     width: .75em;
 	}
@@ -636,12 +637,12 @@
 		-moz-border-radius: 16px;
 		border-radius: 16px;
 	}
+	*/
 	.reporter-link {
 		margin-bottom: 1.25em;
 		line-height: 1.25em;
 		padding: 0 10px;
 	}
-
 	.view-header {
 		h2 {
 			font-family: 'Georgia', serif;
